@@ -1,0 +1,9 @@
+I finished every part of my project and have not found a bug.
+
+I first made my treemultimap class since I realized that userdatabase and moviedatabase would need it to be implemented. I tested it by inserting random key and values and checking that get_value works correctly. 
+I didn't really test User and Movie.cpp separately, but I tested to see 
+that they worked when I made my Userdatabase and Moviedatabase classes. Both were tested similarly, I made the Userdatabase first and tested by loading the 
+large skeleton users.txt and then making a smaller version to test that every
+part was loaded correctly. Similarly for Moviedatabase, I tested by loading 
+the large movies.txt and then making a smaller version.  To make sure that
+every part was correctly loaded, I used cout to check that every aspect of the movie, director, actor, genre, name, id, and rating was loaded correctly. Finally for recommender, I just used the findMatches function in the spec. I loaded up the large data for both userdatabase and moviedatabase and loaded 30 recommendations to check that it was being sorted correctly. I also used smaller text files to see that the score calculations were correct and that only movies with scores greater than 0 were picked. 
